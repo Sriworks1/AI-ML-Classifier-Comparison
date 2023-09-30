@@ -8,7 +8,7 @@ Our goal of this assignment is to compare the performance of the classifiers (k-
 
 This banking dataset helps banking institution to predict the success of their marketing campaign. If the propensity to subscribe the bank product(in this case, a term deposit) is high, tele marketer could prioritize such contact  and thus be productive and yield better results. This would save a lot of time in productivity for tele marketers and improved customer loyality. 
 
-# Data Understanding
+## Data Understanding
 
 ### Client Details
 
@@ -45,7 +45,7 @@ This banking dataset helps banking institution to predict the success of their m
 | ----------- | ----------- | -----------
 | y      | Boolean       | has the client subscribed a term deposit? 
 
-# Data Preparation & Analysis
+## Data Preparation & Analysis
 
 1. Remove columns like day of the month, week.
 2. Label encode the category values.
@@ -57,7 +57,7 @@ This banking dataset helps banking institution to predict the success of their m
 
 1. About 11% of customers in the dataset subscribed to the deposit.
 
-![Data Preparation](images/Acceptance_Proportions.png)
+![Data Analysis](images/Acceptance_Proportions.png)
 
 2. There is a lot of boolean and categorical features.. Just by looking at it manually, it looks like the Decision Tree classifier would be a better model for this.
 
@@ -100,7 +100,7 @@ Calculating other metrics:
 
 ![Other Metrics](images/Other_metrics.png)
 
-# Deployment, Conclusion & Next Steps
+## Deployment, Conclusion & Next Steps
 
 Based on the comparison, Decision tree with right pruning would be a recommended model. 
 
